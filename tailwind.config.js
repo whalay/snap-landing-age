@@ -1,10 +1,14 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {
+      colors: {
+        'Almost-White': 'hsl(0, 0%, 98%)',
+        'Medium-Gray': 'hsl(0, 0%, 41%)',
+        'Almost-Black': 'hsl(0, 0%, 8%)',
+      },
       fontFamily: {
-        'font-Epilogue': ['Epilogue'],
+        'Epilogue': ["Epilogue"],
       },
     },
   },
